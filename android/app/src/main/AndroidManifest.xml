@@ -2,7 +2,8 @@
     package="com.reimondpc.band_names_test">
    <application
         android:label="band_names_test"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
